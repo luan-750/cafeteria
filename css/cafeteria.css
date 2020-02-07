@@ -4,9 +4,9 @@
 }
 header {
   /* Vamos adcionar uma imagem de fundo ao cabeçalho. */
-  background-image: url("../img/cafe4.jpg");
+  background-image: url("../img/cafeteria6.jpg");
   /* Determina a imagem a ser usada no background. */
-  background-position: 0px -250px;
+  background-position: 0px -450px;
   /* Determina a posição do background com relação ao eixo "X e Y" */
   height: 300px;
   /* Dtermina a altura do cabeçalho. */
@@ -56,7 +56,7 @@ nav ul li a {
   /* Para retirar o sublinhado(underline) dos links
   utilizaremos o comando text-decoration com o valor none(nehum). */
   text-decoration: none;
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   /* Aplicação de negrito na letra */
   /* font-weight: bold; */
 }
@@ -66,4 +66,27 @@ nav ul li a:hover {
   color: rgb(255, 255, 255);
   /* padding-left: 10px; */
   /* background-color: rgb(255, 255, 255); */
+}
+
+/* Criação da formatação do rodapé(footer). */
+footer {
+  background-color: rgb(63, 46, 46);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Teko";
+  padding-top: 20px;
+  font-size: large;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+}
+
+div a {
+  color: rgb(211, 114, 3);
+  text-decoration: none;
+  padding: 10px;
 }
