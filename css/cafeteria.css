@@ -179,6 +179,9 @@ p {
 
 #container {
   display: inline-block;
+  /* border-bottom: 1px solid silver; */
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px silver;
 }
 
 #linha {
